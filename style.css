@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #262626;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.coffee{
+    color: white;
+}
+.market{
+    color: #7aa93c;
+}
+header a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #7aa93c;
+    border-radius: 8px;
+    color: #262626;
+}
+header a:hover{
+    background-color: #80ba34;
+}
+.heading-part{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+.left-head ul{
+    display: flex;
+    list-style-type: none;
+    padding: 5px;
+}
+.left-head ul li{
+    padding: 5px;
+    border-radius: 3px;
+    margin: 3px;
+}
+.left-head ul li a{
+    color: #40680d;
+}
+.right-head ul{
+    display: flex;
+    list-style-type: none;
+    padding: 5px;
+}
+.right-head ul li{
+    padding: 5px;
+    border-radius: 3px;
+    margin: 3px;
+}
+.right-head ul li a{
+    color:#40680d;
+}
+ul li a:hover{
+    color: white;
+}
+.container{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    background-image: url(./image/view-3d-coffee-cup.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.read-more{
+    padding: 10px;
+}
+.container a{
+    background-color:#7aa93c;
+    border-radius: 5px;
+    padding: 5px;
+}
+.first-con{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    margin-top: 130px;
+}
+.img-con img{
+    width: 400px;
+    border-radius: 15px;
+}
+.text-con{
+    width: 450px;
+}
+.text-con p{
+    margin-bottom: 20px;
+}
+.text-con a{
+    background-color:#40680d;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+.gallary{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.content{
+    width: 30%;
+    margin: 10px auto;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 10px;
+}
+.gallary img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+footer{
+    height: 100px;
+    background-color: #262626;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #80ba34;
+}
